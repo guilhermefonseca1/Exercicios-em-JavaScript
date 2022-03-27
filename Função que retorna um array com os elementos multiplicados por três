@@ -1,0 +1,7 @@
+function tripleTheChances(chances) {
+ let vazio = [];
+   for(let x of chances)
+  vazio.push(x * chances.length);
+ return vazio;
+ }
+ console.log(tripleTheChances([1,2,3])
